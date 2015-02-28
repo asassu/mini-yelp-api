@@ -1,0 +1,8 @@
+extends layout.jade
+
+block content
+    each result in places
+        each item in result
+            h3
+                a(href="/color/view/" + item.id)
+                    = item.name

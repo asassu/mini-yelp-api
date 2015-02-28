@@ -1,0 +1,17 @@
+{
+  "name": "yelp-api",
+  "version": "1.0.0",
+  "description": "APIs are hard sometimes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.2",
+    "jade": "^1.9.2",
+    "lodash": "^3.1.0",
+    "yelp": "*"
+  }
+}
